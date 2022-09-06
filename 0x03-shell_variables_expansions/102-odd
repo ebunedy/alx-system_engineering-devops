@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | less | cut -c 1-39 --complement | cat -n | grep -v [13579][[:space:]] | tr -s '' | cut -f2
+ls -l | less | cut -c 1-40 --complement | cat -n | grep -v [13579][[:space:]] | tr -s '' | cut -f2
